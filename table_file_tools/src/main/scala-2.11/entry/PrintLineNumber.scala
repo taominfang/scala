@@ -9,7 +9,7 @@ import scala.collection.mutable.Map
  */
 object PrintLineNumber {
 
-  var parameters = Map("-i" -> null, "-F" -> "\t","-n"->"0","-v"->null,"-b"->"1");
+  var parameters = Map("-i" -> null, "-F" -> "\t","-n"->"0","-b"->"1","--disable-line-number"->null);
 
   def main(arg: Array[String]): Unit = {
 
@@ -30,11 +30,19 @@ object PrintLineNumber {
 
     var c=0;
 
+    var printLineNumber=true;
+    if(parameters("--disable-line-number")!=null){
+      printLineNumber=false;
+    }
+
     val base=Integer.parseInt(parameters("-b"))
     var line=br.readLine();
     while((n==0 || c<=n) && line!=null )
     {
 
+        if(printLineNumber){
+          println("###################### "+(c+1)+" ######################");
+        }
         val elements=line.split(F)
 
         for( ii <- 0 until elements.length){
@@ -89,12 +97,15 @@ object PrintLineNumber {
 
       }
 
-      else if (arg(i1) == "-v") {
+      else if (arg(i1) == "--disable-line-number") {
 
           parameters(arg(i1)) = "true"
 
 
+
       }
+
+
 
 
 

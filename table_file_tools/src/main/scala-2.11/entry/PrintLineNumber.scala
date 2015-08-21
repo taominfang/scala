@@ -1,5 +1,6 @@
 package entry
 
+import org.openfly._
 import java.io.{FileReader, InputStreamReader, BufferedReader}
 
 import scala.collection.mutable.Map
@@ -9,33 +10,67 @@ import scala.collection.mutable.Map
  */
 object PrintLineNumber {
 
-  var parameters = Map("-i" -> null, "-F" -> "\t","-n"->"0","-b"->"1","--disable-line-number"->null);
 
   def main(arg: Array[String]): Unit = {
 
+    val pParse=new ParameterParser();
 
-    parametersParse(arg)
+    pParse.add(new Parameter("split-string").addAliasKey("-F").setDefaultValue("\t"));
+    pParse.add(new Parameter("total-line-number").addAliasKey("-n").setDefaultValue("0"));
+    pParse.add(new Parameter("number-base").addAliasKey("-b").setDefaultValue("1").setArgValidation(1,p1=>{
+      val v=p1.getValueAt(0).getOrElse(null);
+      if(v==null){
+        "null value for "+p1.getName
+      }
+      else{
+        if(v == "1" || v=="0"){
+          null;
+        }
+        else{
+          "value for "+p1.getName+" is only '1' or '0'"
+        }
+      }
+    }));
+    pParse.add(new Parameter("disable-line-number").setRequired(false));
+    pParse.add(new Parameter("input-file-path").setRequired(false).setFollowingValueSize(1));
+
+    pParse.parse(arg);
+
+    if(pParse.isError()){
+      println("There are some error in the command line:");
+
+      pParse.getErrorMessage().foreach(println(_));
+
+      println
+      println (pParse.usage)
+
+
+      return;
+    }
+
+
+
 
     var br:BufferedReader=null;
-    if(parameters("-i") == null){
+    if(!pParse.isSet("input-file-path")){
       br=new BufferedReader(new InputStreamReader(System.in))
     }
     else{
-      br=new BufferedReader(new FileReader(parameters("-i")))
+      br=new BufferedReader(new FileReader(pParse.getFirstValue("input-file-path").get))
     }
 
-    val F=parameters("-F");
+    val F=pParse.getFirstValue("split-string").get;
 
-    val n=Integer.parseInt(parameters("-n"));
+    val n=Integer.parseInt(pParse.getFirstValue("total-line-number").getOrElse("0"));
 
     var c=0;
 
     var printLineNumber=true;
-    if(parameters("--disable-line-number")!=null){
+    if(pParse.isSet("disable-line-number")){
       printLineNumber=false;
     }
 
-    val base=Integer.parseInt(parameters("-b"))
+    val base=Integer.parseInt(pParse.getFirstValue("number-base").getOrElse("0"))
     var line=br.readLine();
     while((n==0 || c<=n) && line!=null )
     {
@@ -56,63 +91,8 @@ object PrintLineNumber {
     }
   }
 
-  def parametersParse(arg: Array[String]): Unit = {
-
-
-    var i1 = 0;
-
-
-    while (i1 < arg.length) {
-
-      if (arg(i1) == "-i") {
-        i1 += 1;
-        if (i1 < arg.length) {
-          parameters(arg(i1-1)) = arg(i1)
-        }
-
-      }
-
-
-      else if (arg(i1) == "-F") {
-        i1 += 1;
-        if (i1 < arg.length) {
-          parameters(arg(i1-1)) = arg(i1)
-        }
-
-      }
-
-      else if (arg(i1) == "-n") {
-        i1 += 1;
-        if (i1 < arg.length) {
-          parameters(arg(i1-1)) = arg(i1)
-        }
-
-      }
-
-      else if (arg(i1) == "-b") {
-        i1 += 1;
-        if (i1 < arg.length) {
-          parameters(arg(i1-1)) = arg(i1)
-        }
-
-      }
-
-      else if (arg(i1) == "--disable-line-number") {
-
-          parameters(arg(i1)) = "true"
-
-
-
-      }
 
 
 
 
-
-      i1+=1;
-
-
-    }
-
-  }
 }

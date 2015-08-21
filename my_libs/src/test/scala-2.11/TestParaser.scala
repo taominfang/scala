@@ -1,3 +1,5 @@
+import org.openfly.Parameter
+
 import scala.collection.mutable
 
 /**
@@ -5,15 +7,36 @@ import scala.collection.mutable
  */
 object TestParaser {
 
-  def main(arg: Array[String]): Unit = {
+  def main(arg:Array[String]): Unit = {
+    try
+    {
+      testMain(arg);
+      println("done")
+    }
+    catch {
+      case e:Exception=>{
+        e.printStackTrace()
+      }
+      case err:Error=>{
+        err.printStackTrace()
+      }
+    }
+  }
+
+  def testMain(arg: Array[String]): Unit = {
+
+
+
+    println ("start")
 
     var args = mutable.MutableList[String]();
 
     var testNames = mutable.MutableList[String]();
 
     // Single flag, required
+    var parameterParser=new org.openfly.ParameterParser();
 
-    ParameterParser.add(new Parameter("single-required"));
+    parameterParser.add(new Parameter("single-required"));
 
     args += "--single-required";
     testNames += "single-required";
@@ -21,7 +44,7 @@ object TestParaser {
 
     // Single flag required, but not set, should report error!
 
-    ParameterParser.add(new Parameter("single-required-no-set"));
+    parameterParser.add(new Parameter("single-required-no-set"));
 
 
     testNames += "single-required-no-set";
@@ -29,7 +52,7 @@ object TestParaser {
 
 
     //// single flag no-required
-    ParameterParser.add(new Parameter("single-no-required").setRequired(false));
+    parameterParser.add(new Parameter("single-no-required").setRequired(false));
 
 
     testNames += "single-no-required";
@@ -38,7 +61,7 @@ object TestParaser {
     /// values follow
 
 
-    ParameterParser.add(new Parameter("2values").setFollowingValueSize(2));
+    parameterParser.add(new Parameter("2values").setFollowingValueSize(2));
     args += "--2values";
     args += "value-1values";
     args += "value-2values";
@@ -46,7 +69,7 @@ object TestParaser {
 
     /// with default value
 
-    ParameterParser.add(new Parameter("with-default-value").setDefaultValue("defaultValue"));
+    parameterParser.add(new Parameter("with-default-value").setDefaultValue("defaultValue"));
 
     testNames += "with-default-value";
 
@@ -54,14 +77,14 @@ object TestParaser {
 
 
 
-    ParameterParser.add(new Parameter("with-default-value").setDefaultValues(Array[String]("defaultValue1","defaultValue2")));
+    parameterParser.add(new Parameter("with-default-value").setDefaultValues(Array[String]("defaultValue1","defaultValue2")));
 
     testNames += "with-default-value";
 
 
     // with default values , but user give the new values
 
-    ParameterParser.add(new Parameter("with-default-value-user-give").setDefaultValues(Array[String]("defaultValue1","defaultValue2")));
+    parameterParser.add(new Parameter("with-default-value-user-give").setDefaultValues(Array[String]("defaultValue1","defaultValue2")));
 
     args += "--with-default-value-user-give";
     args += "user-1values";
@@ -70,7 +93,7 @@ object TestParaser {
 
 
     // parameter name is different and with several aliases
-    ParameterParser.add(new Parameter("different-name").setFollowingValueSize(1).setLongKey("--dkey").addAliasKey("--ddkey").addAliasKey("-dk"));
+    parameterParser.add(new Parameter("different-name").setFollowingValueSize(1).setLongKey("--dkey").addAliasKey("--ddkey").addAliasKey("-dk"));
 
     args += "--dkey";
     args += "dkey_value";
@@ -86,10 +109,10 @@ object TestParaser {
 
     /// dependent
 
-    ParameterParser.add(new Parameter("be-dependented1").setRequired(false));
-    ParameterParser.add(new Parameter("be-dependented2").setRequired(false));
+    parameterParser.add(new Parameter("be-dependented1").setRequired(false));
+    parameterParser.add(new Parameter("be-dependented2").setRequired(false));
 
-    ParameterParser.add(new Parameter("depend-test").setFollowingValueSize(1).setDependents(Array("be-dependented1","be-dependented2")));
+    parameterParser.add(new Parameter("depend-test").setFollowingValueSize(1).setDependents(Array("be-dependented1","be-dependented2")));
 
     args += "--depend-test";
     args += "dependent-test-value";
@@ -97,22 +120,53 @@ object TestParaser {
 
 
     // against
-    ParameterParser.add(new Parameter("be-against1").setRequired(false));
-    ParameterParser.add(new Parameter("be-against2"));
+    parameterParser.add(new Parameter("be-against1").setRequired(false).setDesc("If against-test is set, be-against1 can not be set!!"));
+    parameterParser.add(new Parameter("be-against2"));
 
-    ParameterParser.add(new Parameter("against-test").setAgainsts(Array("be-against1","be-against2")).setRequired(false));
+    parameterParser.add(new Parameter("against-test").setAgainsts(Array("be-against1","be-against2")).setRequired(false));
 
     args += "--against-test";
     args += "--be-against2";
     testNames += "against-test";
 
-    ////////// parse
 
-    ParameterParser.parse(args.toArray);
+    /// arg validation
 
-    if (ParameterParser.isError()) {
+    parameterParser.add(new Parameter("need-number-integer").setFollowingValueSize(2).setArgValidation(1,(p)=>{p.argValidateIsNumber(1)}).setArgValidation(2,(p)=>{p.argValidateIsInteger(2)}))
+
+    testNames += "need-number-integer";
+
+    args += "--need-number-integer";
+    args += "abcd";
+    args += "23.4";
+
+
+    parameterParser.add(new Parameter("need-integer-in-range").setDefaultValue("25").setArgValidation(1,(p)=>{
+      if(p.argValidateIsInteger(1)==null){
+        val v=Integer.parseInt( p.getValueAt(0).get);
+        if(v >=20 && v<=30){
+           null;
+        }
+        else{
+           "Arg1 of " +p.getName+" should between 20 and 30 (both included)";
+        }
+      }
+      else{
+         "Arg1 of " +p.getName+" is not a integer"
+      }
+    }));
+
+    testNames += "need-integer-in-range";
+    args += "--need-integer-in-range";
+    args += "50";
+
+    ////////// parse /////////
+
+    parameterParser.parse(args.toArray);
+
+    if (parameterParser.isError()) {
       println("Error:");
-      ParameterParser.getErrorMessage().foreach(one => println(one));
+      parameterParser.getErrorMessage().foreach(one => println(one));
 
       println("  <<<<<<  end error ");
       println();
@@ -122,14 +176,14 @@ object TestParaser {
 
     testNames.foreach(
       one => {
-        if (ParameterParser.isSet(one)) {
+        if (parameterParser.isSet(one)) {
           println()
           println(one + "  is set!");
 
-          val size = ParameterParser.getValueSize(one);
+          val size = parameterParser.getValueSize(one);
           if (size != None && size.get > 0) {
             var c = 1;
-            val vs = ParameterParser.getValues(one).getOrElse({
+            val vs = parameterParser.getValues(one).getOrElse({
               println("error"); Array[String]()
             })
             vs.foreach(
@@ -148,6 +202,12 @@ object TestParaser {
       }
     );
 
+
+
+    println( )
+    println("Uage:")
+
+    println (parameterParser.usage);
   }
 
 }

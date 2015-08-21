@@ -22,7 +22,7 @@ object SynchronizeChanged2Ftp {
     p.add(Parameter("ftp-password").addAliasKey("-p").setRequired(true).setFollowingValueSize(1))
     p.add(Parameter("ftp-folder").addAliasKey("-t").setRequired(true).setFollowingValueSize(1))
     p.add(Parameter("force-copy-all").addAliasKey("-f").setRequired(false).setFollowingValueSize(0));
-    p.add(Parameter("ftp-passive").addAliasKey("-f").setRequired(false).setFollowingValueSize(0));
+    p.add(Parameter("ftp-passive").addAliasKey("-fp").setRequired(false).setFollowingValueSize(0));
 
     p.add(Parameter("ignore-file-name").addAliasKey("-i").setRequired(false).setFollowingValueSize(1));
     p.add(Parameter("ignore-file-list-file").addAliasKey("-ifl").setRequired(false).setFollowingValueSize(1));
@@ -115,6 +115,9 @@ object SynchronizeChanged2Ftp {
 
       }
     }
+    catch {
+      case _ =>{}
+    }
 
     val rootLen=if(root.charAt(root.length-1)=='/')root.length else root.length+1
     val updateFiles=mutable.MutableList[String]();
@@ -144,16 +147,18 @@ object SynchronizeChanged2Ftp {
 
   }
 
+
+
   def confirmDir(dir:String): Unit ={
     require(dir.charAt(0)=='/',"we need abstract path! it should start /, but we got:"+dir)
     val paths=dir.split("/").toList
 
-    var p="/";
+    var p="";
 
     paths.foreach{
       a=> {
         if (a != "") {
-          p = p + a;
+          p = p +"/"+ a;
           if (!ftpConnect.changeWorkingDirectory(p)) {
             ftpConnect.makeDirectory(p)
             require(ftpConnect.changeWorkingDirectory(p), "Could not create the dir:" + p)
@@ -181,11 +186,11 @@ object SynchronizeChanged2Ftp {
       name=>{
         val ftpFilePath=ftpRoot+"/"+name
 
-        val dir=ftpFilePath.substring(0,ftpFilePath.lastIndexOf('/'));
+        val (dir, fn)=parseFullPath2DirAndFileName(ftpFilePath)
         confirmDir(dir);
         val localFilePath=localRoot+"/"+name
         val input=new FileInputStream(localFilePath)
-        ftpConnect.storeFile(ftpFilePath,input)
+        ftpConnect.storeFile(fn,input)
         println("uploaded:"+localFilePath+" -> "+ftpFilePath);
 
       }
@@ -196,23 +201,39 @@ object SynchronizeChanged2Ftp {
 
   }
 
-  def confirmFolder(subFolderName:String): Unit ={
+  def parseFullPath2DirAndFileName(path:String)={
+    val lastSlish=path.lastIndexOf('/');
 
-    ftpConnect.listDirectories();
+
+    if(lastSlish == -1){
+      ("",path)
+    }
+    else {
+      (path.substring(0,lastSlish),path.substring(lastSlish+1))
+    }
+  }
+
+  def uploadFile(ftpFullPath:String,input:InputStream): Unit ={
+
+    val lastSlish=ftpFullPath.lastIndexOf('/');
+
+
+    if(lastSlish == -1){
+      println("uploading "+ftpFullPath)
+      ftpConnect.storeFile(ftpFullPath,input)
+    }
+    else {
+      val path=ftpFullPath.substring(0,lastSlish);
+      val fileName=ftpFullPath.substring(lastSlish+1);
+      ftpConnect.changeWorkingDirectory(path);
+      println("Change dir to:"+path)
+
+      ftpConnect.storeFile(fileName,input)
+      println("Done uploading for "+fileName)
+    }
 
 
   }
-
-
-  def copyFile(s:File): Unit ={
-
-  }
-
-  def makeDir(ftpPath:Array[String]): Unit ={
-
-
-  }
-
 
 
 

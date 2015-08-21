@@ -1,11 +1,12 @@
 /**
  * Created by mtao60 on 7/6/15.
  */
+package org.openfly
 
 import scala.collection.mutable
 import scala.util.control.Breaks._
 
-object ParameterParser {
+case class ParameterParser(var argv:Array[String]=null) {
 
 
   var enableStandaloneParameter = false;
@@ -17,11 +18,14 @@ object ParameterParser {
 
   var parameterNameMap = scala.collection.mutable.Map[String, Parameter]();
 
+  var parameters=mutable.MutableList[Parameter]();
 
   def add(p: Parameter) = {
     p.getKeys.foreach { key: String => parameterKeyMaps.update(key, p) }
 
     parameterNameMap.update(p.getName, p)
+
+    parameters+=p;
 
   }
 
@@ -34,15 +38,23 @@ object ParameterParser {
 
     sb.append("")
 
-    parameterKeyMaps.foreach { case (name, p) => sb.append(p.usage).append(" ") }
+    parameters.foreach { p => sb.append(p.usage).append("\n") }
 
 
     sb.toString()
 
   }
 
-  def parse(argv: Array[String]) = {
+  def parse(intputArgv:Array[String]):Unit={
+    this.argv=intputArgv;
+    this.parse();
+  }
 
+
+  def parse():Unit={
+
+
+    require(this.argv!=null,"argv is not setup")
 
     var ind = 0;
     breakable {
@@ -128,6 +140,13 @@ object ParameterParser {
           }
         };
 
+        //rugn arg validation
+
+
+        val sb=new StringBuilder();
+        if(!pa.argValidate(sb) ){
+          errorMessages+=sb.toString();
+        }
 
       }
 

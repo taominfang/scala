@@ -2,37 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ad1418-74c4-4bde-b041-0412d750cba6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/Csv2JavaSource.scala" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/code_test/src/main/scala-2.11/FunctionValueTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/Json2JavaSource.scala" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/my_libs/src/test/scala-2.11/ParameterParserTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/libraries/SBT__com_google_code_gson_gson_2_3_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/libraries/SBT__commons_lang_commons_lang_2_6_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/libraries/SBT__default_my_libs_2_11_1_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_6_jar.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/src/main/scala-2.11/Parameter.scala" afterPath="$USER_HOME$/pub_github/scala/my_libs/src/main/scala-2.11/Parameter.scala" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/src/main/scala-2.11/ParameterParser.scala" afterPath="$USER_HOME$/pub_github/scala/my_libs/src/main/scala-2.11/ParameterParser.scala" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/PrintLineNumber.scala" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/PrintLineNumber.scala" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/SecondMain.scala" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/src/main/scala-2.11/entry/SecondMain.scala" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/src/test/scala-2.11/TestParaser.scala" afterPath="$USER_HOME$/pub_github/scala/my_libs/src/test/scala-2.11/TestParaser.scala" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/build.sbt" afterPath="$USER_HOME$/pub_github/scala/my_libs/build.sbt" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/build.sbt" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/build.sbt" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/code_test/.idea/modules/code_test.iml" afterPath="$USER_HOME$/pub_github/scala/code_test/.idea/modules/code_test.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/code_test/.idea/misc.xml" afterPath="$USER_HOME$/pub_github/scala/code_test/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/misc.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/code_test/.idea/modules.xml" afterPath="$USER_HOME$/pub_github/scala/code_test/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/modules.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/.idea/modules/my_libs.iml" afterPath="$USER_HOME$/pub_github/scala/my_libs/.idea/modules/my_libs.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/code_test/.idea/sbt.xml" afterPath="$USER_HOME$/pub_github/scala/code_test/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/sbt.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/scala_compiler.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/scala_compiler.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/modules/table_file_tools.iml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/modules/table_file_tools.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/vcs.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/code_test/.idea/workspace.xml" afterPath="$USER_HOME$/pub_github/scala/code_test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/my_libs/.idea/workspace.xml" afterPath="$USER_HOME$/pub_github/scala/my_libs/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/workspace.xml" afterPath="$USER_HOME$/pub_github/scala/table_file_tools/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/Csv2JavaSource.scala" afterPath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/Csv2JavaSource.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/Parameter.scala" afterPath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/Parameter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/ParameterParser.scala" afterPath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/ParameterParser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/PrintLineNumber.scala" afterPath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/PrintLineNumber.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/SecondMain.scala" afterPath="$PROJECT_DIR$/../table_file_tools/src/main/scala-2.11/entry/SecondMain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/src/test/scala-2.11/TestParaser.scala" afterPath="$PROJECT_DIR$/../my_libs/src/test/scala-2.11/TestParaser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/build.sbt" afterPath="$PROJECT_DIR$/../my_libs/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../table_file_tools/build.sbt" afterPath="$PROJECT_DIR$/../table_file_tools/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" afterPath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/synchronizefile.iml" afterPath="$PROJECT_DIR$/.idea/modules/synchronizefile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my_libs/.idea/workspace.xml" />
     </list>
     <ignored path="SynchronizeFile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+              <caret line="29" column="97" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -101,11 +84,19 @@
       <file leaf-file-name="SynchronizeChanged2Ftp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <element signature="e#45#61#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6270718">
+              <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FTPClient.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.3-sources.jar!/org/apache/commons/net/ftp/FTPClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1975" column="0" selection-start-line="1975" selection-start-column="0" selection-end-line="1975" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,14 +126,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#45#81#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParameterParser.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/default/my_libs_2.11/1.0/srcs/my_libs_2.11-sources.jar!/ParameterParser.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -155,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/FileSetTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
         <option value="$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
       </list>
     </option>
@@ -173,7 +175,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -198,9 +200,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,6 +220,86 @@
               <option name="myItemId" value="SynchronizeFile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SBT: org.scalatest:scalatest_2.11:2.2.1:jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest_2.11-2.2.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syschronzie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SynchronizeFile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -229,7 +311,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/scala_training/fast-track-akka-scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
@@ -246,7 +328,7 @@
       <recent name="org.openfly.tools.scala.syschronzie" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.SynchronizeChanged2Ftp$Test.check update">
+  <component name="RunManager" selected="Application.SynchronizeChanged2Ftp">
     <configuration default="false" name="FindAllFiles" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -257,6 +339,26 @@
       <option name="MAIN_CLASS_NAME" value="org.openfly.tools.scala.syschronzie.FindAllFiles" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="-o /tmp/all_file.json -R /tmp/light-php-framework -i .git" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="synchronizefile" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SynchronizeChanged2Ftp" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.openfly.tools.scala.syschronzie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.openfly.tools.scala.syschronzie.SynchronizeChanged2Ftp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-h &quot;cubicalmonkey.org&quot; -u &quot;minfang@cubicalmonkey.org&quot; -p &quot;anvato123&quot; -F /tmp/status.json -s /tmp/t1 -t /bb -f -fp " />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -278,22 +380,6 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="testRoot" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SynchronizeChanged2Ftp$Test.testFtpConnect" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="synchronizefile" />
-      <setting name="path" value="org.openfly.tools.scala.syschronzie.SynchronizeChanged2Ftp$Test" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="testFtpConnect" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -630,23 +716,23 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.FindAllFiles" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.FileSetTest.testRoot" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.testFtpConnect" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SynchronizeChanged2Ftp" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.FileSetTest.testRoot" />
       <item index="3" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.upload files" />
       <item index="4" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.upload files" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FindAllFiles" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.FileSetTest.testRoot" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.testFtpConnect" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizeChanged2Ftp" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.upload files" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FindAllFiles" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.FileSetTest.testRoot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1440136049551" />
+    <option name="lastUpdateTimestamp" value="1440138561415" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -687,15 +773,16 @@
       <updated>1439914891231</updated>
       <workItem from="1439914892689" duration="30805000" />
       <workItem from="1440136037071" duration="1132000" />
+      <workItem from="1440138082740" duration="4270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31937000" />
+    <option name="totallyTimeSpent" value="36207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -704,18 +791,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3583815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1504298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39854014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39739883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -736,7 +823,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -744,6 +841,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/FileSetTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -764,9 +909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,9 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#81#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding>
-            <element signature="e#45#90#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#45#90#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,9 +955,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="178" column="6" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
-          <folding>
-            <marker date="1439938482000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,39 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/local/default/my_libs_2.11/1.0/srcs/my_libs_2.11-sources.jar!/ParameterParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="191" column="6" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="6" />
-          <folding>
-            <marker date="1439938482000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46875">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#45#90#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +993,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding>
-            <element signature="e#45#90#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19128788">
+          <caret line="108" column="75" selection-start-line="108" selection-start-column="75" selection-end-line="108" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,19 +1016,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#81#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="97" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.3-sources.jar!/org/apache/commons/net/ftp/FTPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1975" column="0" selection-start-line="1975" selection-start-column="0" selection-end-line="1975" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/default/my_libs_2.11/1.0/srcs/my_libs_2.11-sources.jar!/ParameterParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="e#45#61#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6270718">
+          <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,13 @@ scalaVersion := "2.11.7"
 
 assemblyOption in assembly ~= { _.copy(cacheOutput = false) }
 
+test in assembly := {}
+
+assemblyExcludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
+  cp filter {jar =>  jar.data.getName == "servlet-api-2.5-20081211.jar" ||
+    jar.data.getName == "scalatest_2.11-2.2.1.jar" }
+}
+
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
 
 libraryDependencies += "default" %% "my_libs" % "1.0"

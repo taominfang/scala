@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960362b0-59b9-41b1-b61c-2573e8a4e20e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
     </list>
     <ignored path="table_file_tools.iws" />

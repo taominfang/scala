@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ad1418-74c4-4bde-b041-0412d750cba6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
     </list>
     <ignored path="SynchronizeFile.iws" />
@@ -56,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="5" selection-start-line="51" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+              <caret line="52" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
               <folding>
                 <element signature="e#45#64#0" expanded="true" />
               </folding>
@@ -64,43 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizeChangedFile.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="e#45#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronizeChanged2Ftp.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SynchronizeChanged2Ftp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstCollectInfo.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindAllFiles.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29471034">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3324937">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -123,11 +88,11 @@
         <option value="$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/FileSetTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp$Test.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
       </list>
     </option>
   </component>
@@ -726,12 +691,12 @@
       <workItem from="1439914892689" duration="30805000" />
       <workItem from="1440136037071" duration="1132000" />
       <workItem from="1440138082740" duration="6476000" />
-      <workItem from="1440359018069" duration="4287000" />
+      <workItem from="1440359018069" duration="5097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42700000" />
+    <option name="totallyTimeSpent" value="43510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -1043,16 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="5" selection-start-line="51" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1060,14 +1015,6 @@
           <folding>
             <element signature="e#45#90#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,8 +1028,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29471034">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324937">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding />
         </state>
       </provider>

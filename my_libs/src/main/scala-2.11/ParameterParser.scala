@@ -110,7 +110,7 @@ case class ParameterParser(var argv:Array[String]=null) {
 
     //valid
 
-    parameterKeyMaps.foreach { case (name, pa) => {
+    parameterNameMap.foreach { case (name, pa) => {
       if (pa.isRequired && !pa.prepare) {
         errorMessages += name + " is required"
       }

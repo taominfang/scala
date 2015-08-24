@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="challenger_sign_date_gen$sources_javadoc_2.11"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150822154741"/>
+	<dependencies>
+		<module organisation="commons-net" name="commons-net">
+			<revision name="3.3" status="release" pubdate="20130607155225" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="10151" time="0" location="/Users/mtao60/.ivy2/cache/commons-net/commons-net/ivy-3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.pom"/>
+				<caller organisation="default" name="challenger_sign_date_gen$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.3" rev-constraint-default="3.3" rev-constraint-dynamic="3.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="280983" time="0" location="/Users/mtao60/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/3.3/commons-net-3.3.jar"/>
+					</artifact>
+					<artifact name="commons-net" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1972112" time="0" location="/Users/mtao60/.ivy2/cache/commons-net/commons-net/docs/commons-net-3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/3.3/commons-net-3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-net" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="414196" time="0" location="/Users/mtao60/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/3.3/commons-net-3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110116142147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<metadata-artifact status="no" details="" size="6396" time="0" location="/Users/mtao60/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="default" name="challenger_sign_date_gen$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1624033" time="0" location="/Users/mtao60/.ivy2/cache/commons-lang/commons-lang/docs/commons-lang-2.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/Users/mtao60/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/Users/mtao60/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.3.1" status="release" pubdate="20141120014214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3258" time="0" location="/Users/mtao60/.ivy2/cache/com.google.code.gson/gson/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom"/>
+				<caller organisation="default" name="challenger_sign_date_gen$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="139924" time="0" location="/Users/mtao60/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="gson" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="257555" time="0" location="/Users/mtao60/.ivy2/cache/com.google.code.gson/gson/docs/gson-2.3.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="210856" time="0" location="/Users/mtao60/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="default" name="my_libs_2.11">
+			<revision name="1.0" status="release" pubdate="20150714144128" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="1340" time="0" location="/Users/mtao60/.ivy2/cache/default/my_libs_2.11/ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="challenger_sign_date_gen$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="my_libs_2.11" type="jar" ext="jar" status="no" details="" size="37106" time="0" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/jars/my_libs_2.11.jar">
+						<origin-location is-local="true" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/jars/my_libs_2.11.jar"/>
+					</artifact>
+					<artifact name="my_libs_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3150" time="0" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/srcs/my_libs_2.11-sources.jar">
+						<origin-location is-local="true" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/srcs/my_libs_2.11-sources.jar"/>
+					</artifact>
+					<artifact name="my_libs_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="359260" time="0" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/docs/my_libs_2.11-javadoc.jar">
+						<origin-location is-local="true" location="/Users/mtao60/.ivy2/local/default/my_libs_2.11/1.0/docs/my_libs_2.11-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622131702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/mtao60/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="challenger_sign_date_gen$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/mtao60/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="22812957" time="0" location="/Users/mtao60/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/mtao60/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

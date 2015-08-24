@@ -43,6 +43,7 @@ object SynchronizeChangedFile {
 
       val i1=info.entrySet().iterator();
       val force=p.isSet("force-copy-all");
+      println("is force:"+force)
       while(i1.hasNext){
         val one=i1.next();
         val fn=one.getKey
@@ -56,9 +57,9 @@ object SynchronizeChangedFile {
             println("copy file from :"+fInfo.getPath+" to:"+targetFile.getPath)
             copyFile(fInfo,targetFile)
           }
-          else{
-            info.addProperty(fn,fInfo.lastModified())
-          }
+
+          info.addProperty(fn,fInfo.lastModified())
+
         }
 
       }

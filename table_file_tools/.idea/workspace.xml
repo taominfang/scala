@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960362b0-59b9-41b1-b61c-2573e8a4e20e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my_libs/src/test/scala-2.11/entry/ParameterParserTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my_libs/src/test/scala-2.11/ParameterParserTest.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_10_0_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_10_2_0_jar.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/ParameterParser.scala" afterPath="$PROJECT_DIR$/../my_libs/src/main/scala-2.11/ParameterParser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/build.sbt" afterPath="$PROJECT_DIR$/../my_libs/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" afterPath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/table_file_tools.iml" afterPath="$PROJECT_DIR$/.idea/modules/table_file_tools.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SynchronizeFile/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" afterPath="$PROJECT_DIR$/../SynchronizeFile/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
     </list>
     <ignored path="table_file_tools.iws" />
     <ignored path=".idea/workspace.xml" />

@@ -18,12 +18,21 @@ object SynchronizeChangedFile {
     p.add(Parameter("source-folder").addAliasKey("-s").setRequired(true).setFollowingValueSize(1))
     p.add(Parameter("target-folder").addAliasKey("-t").setRequired(true).setFollowingValueSize(1))
     p.add(Parameter("force-copy-all").addAliasKey("-f").setRequired(false).setFollowingValueSize(0));
+    p.add(Parameter("help").setRequired(false).setFollowingValueSize(0))
+
     p.parse();
+
+    if(p.isSet("help")){
+      println ("Usage:"+p.usage)
+      return
+    }
+
     val es=p.getErrorMessage()
 
     if(es.size>0){
       es.foreach(println(_))
       println("error, quite")
+      println ("Usage:"+p.usage)
       return
     }
     val fi=new File(p.getFirstValue("files-status").get)

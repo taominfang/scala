@@ -49,14 +49,21 @@ object SynchronizeFolder {
     p.add(Parameter("ignore-file-name").addAliasKey("-in").setRequired(false).setFollowingValueSize(1));
     p.add(Parameter("ignore-file-path").addAliasKey("-ip").setRequired(false).setFollowingValueSize(1));
     p.add(Parameter("ignore-file-list-file").addAliasKey("-if").setRequired(false).setFollowingValueSize(1));
-
+    p.add(Parameter("help").setRequired(false).setFollowingValueSize(0))
 
     p.parse();
+
+    if(p.isSet("help")){
+      println ("Usage:"+p.usage)
+      return
+    }
+
     val es=p.getErrorMessage()
 
     if(es.size>0){
       es.foreach(println(_))
       println("error, quite")
+      println ("Usage:"+p.usage)
       return
     }
     val sFolder=new File(p.getFirstValue("source-folder").get)

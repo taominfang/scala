@@ -13,27 +13,37 @@ import scala.collection.mutable
 object FindAllFiles {
 
   def main(args:Array[String]): Unit ={
-    val pParse=new ParameterParser();
+    val p=new ParameterParser();
 
-    pParse.add(new Parameter("root-folder").addAliasKey("-R").setFollowingValueSize(1).setRequired(true));
-    pParse.add(new Parameter("output-file").addAliasKey("-o").setFollowingValueSize(1).setRequired(true));
-    pParse.add(new Parameter("ignore-file").addAliasKey("-i").setFollowingValueSize(1).setRequired(false));
+    p.add(new Parameter("root-folder").addAliasKey("-R").setFollowingValueSize(1).setRequired(true));
+    p.add(new Parameter("output-file").addAliasKey("-o").setFollowingValueSize(1).setRequired(true));
+    p.add(new Parameter("ignore-file").addAliasKey("-i").setFollowingValueSize(1).setRequired(false));
 
-    pParse.parse(args);
+    p.add(Parameter("help").setRequired(false).setFollowingValueSize(0))
 
-    if(pParse.getErrorMessage().size>0){
-      pParse.getErrorMessage().foreach(println(_));
-      println("wrong, quite")
-      return;
+    p.parse();
+
+    if(p.isSet("help")){
+      println ("Usage:"+p.usage)
+      return
+    }
+
+    val es=p.getErrorMessage()
+
+    if(es.size>0){
+      es.foreach(println(_))
+      println("error, quite")
+      println ("Usage:"+p.usage)
+      return
     }
 
 
 
 
-    val filters= collection.mutable.Set[String]((pParse.getValues("ignore-file").getOrElse(Array[String]()).toSet).toArray:_*)
+    val filters= collection.mutable.Set[String]((p.getValues("ignore-file").getOrElse(Array[String]()).toSet).toArray:_*)
     //(.toArray:_*)
 
-    val root=new File(pParse.getFirstValue("root-folder").get)
+    val root=new File(p.getFirstValue("root-folder").get)
 
     require(root.isDirectory,root.getPath+" is not a folder")
 
@@ -54,7 +64,7 @@ object FindAllFiles {
     })
 
     println(result.toString)
-    val fw=new FileWriter(pParse.getFirstValue("output-file").get)
+    val fw=new FileWriter(p.getFirstValue("output-file").get)
 
     fw.write(result.toString)
 

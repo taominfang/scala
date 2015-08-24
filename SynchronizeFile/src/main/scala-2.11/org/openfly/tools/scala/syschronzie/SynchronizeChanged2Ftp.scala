@@ -26,12 +26,21 @@ object SynchronizeChanged2Ftp {
 
     p.add(Parameter("ignore-file-name").addAliasKey("-i").setRequired(false).setFollowingValueSize(1));
     p.add(Parameter("ignore-file-list-file").addAliasKey("-ifl").setRequired(false).setFollowingValueSize(1));
+    p.add(Parameter("help").setRequired(false).setFollowingValueSize(0))
+
     p.parse();
+
+    if(p.isSet("help")){
+      println ("Usage:"+p.usage)
+      return
+    }
+
     val es=p.getErrorMessage()
 
     if(es.size>0){
       es.foreach(println(_))
       println("error, quite")
+      println ("Usage:"+p.usage)
       return
     }
 

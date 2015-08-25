@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ad1418-74c4-4bde-b041-0412d750cba6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/DeployFramework.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../table_file_tools/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../table_file_tools/.idea/workspace.xml" />
     </list>
     <ignored path="SynchronizeFile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,23 +52,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SynchronizeFolder.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
+      <file leaf-file-name="SynchronizeChanged2Ftp.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            <state vertical-scroll-proportion="-18.148148">
+              <caret line="63" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeployFramework.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/DeployFramework.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61482257">
+              <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
               <folding>
-                <element signature="e#45#64#0" expanded="true" />
+                <element signature="e#45#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizeChanged2Ftp.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
+      <file leaf-file-name="SynchronizeFolder.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3324937">
-              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="70" />
+              <folding>
+                <element signature="e#45#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizeChangedFile.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="49" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -91,8 +116,10 @@
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FindAllFiles.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/DeployFramwork.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/DeployFramework.scala" />
       </list>
     </option>
   </component>
@@ -105,8 +132,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="2560" />
+    <option name="height" value="1350" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -241,7 +268,7 @@
       <recent name="org.openfly.tools.scala.syschronzie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizeFolder">
+  <component name="RunManager" selected="Application.DeployFramework">
     <configuration default="false" name="SynchronizeChanged2Ftp" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -302,19 +329,23 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SynchronizeChanged2Ftp$Test.upload files" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
+    <configuration default="false" name="DeployFramework" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.openfly.tools.scala.syschronzie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.openfly.tools.scala.syschronzie.DeployFramework" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-in .git  -s /tmp/light-php-framework/   -d $PROJECT_DIR$/../../mobile-share-server-service   -d /tmp/t12 -d /tmp/t22" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="synchronizefile" />
-      <setting name="path" value="org.openfly.tools.scala.syschronzie.SynchronizeChanged2Ftp$Test" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="upload files" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
@@ -635,16 +666,16 @@
       <item index="0" class="java.lang.String" itemvalue="Application.SynchronizeChanged2Ftp" />
       <item index="1" class="java.lang.String" itemvalue="Application.SynchronizeChangedFile" />
       <item index="2" class="java.lang.String" itemvalue="Application.SynchronizeFolder" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.upload files" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DeployFramework" />
       <item index="4" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizeFolder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SynchronizeChangedFile" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SynchronizeChanged2Ftp" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.upload files" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DeployFramework" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SynchronizeFolder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SynchronizeChangedFile" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SynchronizeChanged2Ftp" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.SynchronizeChanged2Ftp$Test.check update" />
       </list>
     </recent_temporary>
   </component>
@@ -691,15 +722,15 @@
       <workItem from="1439914892689" duration="30805000" />
       <workItem from="1440136037071" duration="1132000" />
       <workItem from="1440138082740" duration="6476000" />
-      <workItem from="1440359018069" duration="5097000" />
+      <workItem from="1440359018069" duration="14717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43510000" />
+    <option name="totallyTimeSpent" value="53130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1350" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -709,18 +740,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39868745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3583815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35714287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1504298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08346582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38583815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13871224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19967532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -742,7 +773,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -780,7 +811,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding>
-            <element signature="e#45#90#0" expanded="true" />
+            <element signature="e#45#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -926,7 +957,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
-            <element signature="e#45#90#0" expanded="true" />
+            <element signature="e#45#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1008,16 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#45#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/FirstCollectInfo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1034,21 +1055,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.148148">
+          <caret line="63" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeFolder.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="70" />
           <folding>
-            <element signature="e#45#64#0" expanded="true" />
+            <element signature="e#45#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChanged2Ftp.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/SynchronizeChangedFile.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324937">
-          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/org/openfly/tools/scala/syschronzie/DeployFramework.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61482257">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding>
+            <element signature="e#45#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

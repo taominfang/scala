@@ -1,6 +1,6 @@
 package org.openfly.tools.scala.syschronzie
 
-import java.io.File
+import java.io.{FileReader, BufferedReader, File}
 import java.nio.file.StandardCopyOption._
 import java.nio.file.{Files, Path}
 
@@ -13,7 +13,7 @@ import scala.collection.mutable
  */
 object SynchronizeFolder {
 
-  def collectCopyList(targetRootPath: String, tFolder: File, sFolder: File, copyList: mutable.MutableList[(Path, Path)], force: Boolean, ignoreFileNames: Set[String], ignoreFilePaths: Set[String]): Unit = {
+  def collectCopyList(targetRootPath: String, tFolder: File, sFolder: File, copyList: mutable.MutableList[(Path, Path)], force: Boolean, ignoreFileNames: mutable.Set[String], ignoreFilePaths: mutable.Set[String]): Unit = {
     val subs = List(tFolder.listFiles(): _*)
     subs.foreach(one => {
       val fileName = one.getName
@@ -77,11 +77,23 @@ object SynchronizeFolder {
 
     val copyList = new mutable.MutableList[(Path, Path)];
 
-    val ignoreFileNames = Set[String]((p.getValues("ignore-file-name").getOrElse(Array[String]())): _*)
+    val ignoreFileNames = mutable.Set[String]((p.getValues("ignore-file-name").getOrElse(Array[String]())): _*)
 
-    val ignoreFilePaths = Set[String]((p.getValues("ignore-file-path").getOrElse(Array[String]())): _*)
+    val ignoreFilePaths = mutable.Set[String]((p.getValues("ignore-file-path").getOrElse(Array[String]())): _*)
 
 
+    try {
+      val br = new BufferedReader(new FileReader(p.getFirstValue("ignore-file-list-file").get))
+      var line = br.readLine()
+      while (line != null) {
+        ignoreFilePaths.add(line)
+        line = br.readLine()
+      }
+      br.close();
+    }
+    catch {
+      case _ => {}
+    }
 
     collectCopyList(tFolder.getPath, tFolder, sFolder, copyList, p.isSet("force-copy-all"), ignoreFileNames, ignoreFilePaths)
 

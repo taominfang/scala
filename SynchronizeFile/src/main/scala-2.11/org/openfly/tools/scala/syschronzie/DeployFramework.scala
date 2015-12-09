@@ -104,71 +104,60 @@ object DeployFramework {
 
 
     val errorMessage = mutable.MutableList[String]();
-    if (p.isSet("dry-run")) {
-      println("dry-run ! ,No copy Action!")
-      copyList.foreach(one => {
-        println(one._1)
-      })
+    val dry_run = p.isSet("dry-run")
 
+    val force = p.isSet("force-copy-all")
+    p.getValues("deploy-folder").get.toList.foreach(one => {
 
-      p.getValues("deploy-folder").get.toList.foreach(one => {
-        println("deploy target folder:" + one)
-      })
+      println("Start to deploy folder:" + one)
 
-    }
-
-    else {
-      val force = p.isSet("force-copy-all")
-      p.getValues("deploy-folder").get.toList.foreach(one => {
-
-        println("Start to deploy folder:" + one)
-
-        val confirmDir = {
-          (dir: File) => {
-            if (!dir.isDirectory && !dir.mkdirs)
-              false
-            else
-              true
-
-          }
-        }
-
-        val dRoot = new File(one)
-        if (confirmDir(dRoot) != true) {
-          errorMessage += "Could not create dir:" + one + ", give up all deploy for this folder!";
+      val confirmDir = {
+        (dir: File) => {
+          if (!dir.isDirectory && !dir.mkdirs)
+            false
+          else
+            true
 
         }
-        else {
-          copyList.foreach {
-            case (source, relativePath, fileName) => {
-              val folder = new File(dRoot, relativePath)
-              if (confirmDir(folder)==true) {
-                val tFi = new File(folder, fileName)
-                if (force || !tFi.isFile || source.lastModified() > tFi.lastModified()) {
+      }
+
+      val dRoot = new File(one)
+      if (confirmDir(dRoot) != true) {
+        errorMessage += "Could not create dir:" + one + ", give up all deploy for this folder!";
+
+      }
+      else {
+        copyList.foreach {
+          case (source, relativePath, fileName) => {
+            val folder = new File(dRoot, relativePath)
+            if (confirmDir(folder) == true) {
+              val tFi = new File(folder, fileName)
+              if (force || !tFi.isFile || source.lastModified() > tFi.lastModified()) {
+                if(dry_run){
+                  println("dry-run copy :" + source.getPath + " => " + tFi.getPath)
+                }
+                else{
                   Files.copy(source.toPath, tFi.toPath, REPLACE_EXISTING)
                   println("copy :" + source.getPath + " => " + tFi.getPath)
                 }
 
               }
-              else {
-                errorMessage += "Could not create dir:" + folder.getPath
-              }
+
+            }
+            else {
+              errorMessage += "Could not create dir:" + folder.getPath
             }
           }
-
-
         }
-      })
 
-      if (errorMessage.size > 0) {
-        println("Error :")
-        errorMessage.foreach(println(_))
+
       }
+    })
 
+    if (errorMessage.size > 0) {
+      println("Error :")
+      errorMessage.foreach(println(_))
     }
-
-    errorMessage.foreach(one => println("Error!, wrong deploy target folder:" + one))
-
 
   }
 }

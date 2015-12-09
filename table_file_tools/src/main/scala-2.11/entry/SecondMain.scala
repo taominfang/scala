@@ -11,7 +11,7 @@ object SecondMain {
   def main(arg:Array[String]): Unit ={
 
     var a = Array[String]()
-    a+="1"
+
 
 
   }

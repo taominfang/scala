@@ -63,6 +63,8 @@ object SynchronizeChanged2Ftp {
       case _ => {}
     }
 
+    p.getValues("ignore-file-name").getOrElse(Array[String]()).foreach(skipNames+=_)
+
     val updateFileList = checkUpdate(sourceFolder.getPath, p.getFirstValue("files-status").get, skipNames, p.isSet("force-copy-all"))
 
     if (updateFileList.size > 0) {
@@ -201,7 +203,7 @@ object SynchronizeChanged2Ftp {
 
     fileList.foreach {
       name => {
-        val ftpFilePath = ftpRoot + "/" + name
+        val ftpFilePath = ftpRoot + "/" + name.replace("\\","/")
 
         val (dir, fn) = parseFullPath2DirAndFileName(ftpFilePath)
         confirmDir(dir);

@@ -111,7 +111,7 @@ case class Parameter(name: String) {
       val vf=this.argValidtions.get(i).getOrElse(null);
       if(vf!=null){
 
-        var em=vf(this);
+        val em=vf(this);
 
         if( em != null){
           sb.append(em).append("\n");
@@ -305,6 +305,8 @@ case class Parameter(name: String) {
 
   }
 
+
+
   def argValidateIsInteger(argInd:Int):String={
 
     val s=getValueAt(argInd-1).getOrElse(null);
@@ -327,6 +329,35 @@ case class Parameter(name: String) {
 
     return re;
 
+  }
+
+  def argValidateIsNumberRange(argInd:Int,largerAndEquale:Double,lessAndEqunale:Double): String ={
+    val s=getValueAt(argInd-1).getOrElse(null);
+
+    if(s==null){
+      return "Error, Could not get arg at:"+argInd+ " for " +name
+    }
+
+    var re:String=null;
+
+    try {
+      val v=java.lang.Double.parseDouble(s)
+
+      if(v<largerAndEquale){
+        re="Arg"+argInd+ " for " +name+" is less than "+largerAndEquale;
+      }
+      else if(v>lessAndEqunale){
+        re="Arg"+argInd+ " for " +name+" is larger than "+lessAndEqunale;
+      }
+
+    }
+    catch{
+      case e:Exception=>{
+        re="Arg"+argInd+ " for " +name+" requires a number, but "+s+" is not a nunmber";
+      }
+    }
+
+    return re;
   }
 
 }

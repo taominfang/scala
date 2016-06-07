@@ -1,9 +1,7 @@
-package entry
-
 import java.io.FileReader
 import java.util.Scanner
 
-import com.google.gson.{JsonObject, JsonElement, JsonParser}
+import com.google.gson.{JsonElement, JsonParser}
 import org.apache.commons.lang.StringEscapeUtils
 
 /**

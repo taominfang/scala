@@ -1,5 +1,3 @@
-package entry
-
 import java.io.{File, FileWriter}
 import java.util.Random
 

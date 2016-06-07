@@ -1,6 +1,4 @@
-package entry
-
-import java.io.{FileReader, BufferedReader}
+import java.io.{BufferedReader, FileReader}
 import java.util.Scanner
 
 import org.apache.commons.lang.StringEscapeUtils

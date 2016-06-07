@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" filepath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../my_libs/.idea/modules/my_libs-build.iml" filepath="$PROJECT_DIR$/../my_libs/.idea/modules/my_libs-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/table_file_tools.iml" filepath="$PROJECT_DIR$/.idea/modules/table_file_tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/table_file_tools-build.iml" filepath="$PROJECT_DIR$/.idea/modules/table_file_tools-build.iml" />
     </modules>

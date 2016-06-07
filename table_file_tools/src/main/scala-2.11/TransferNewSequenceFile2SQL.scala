@@ -1,5 +1,3 @@
-package entry
-
 import java.io._
 
 import org.openfly.{Parameter, ParameterParser}

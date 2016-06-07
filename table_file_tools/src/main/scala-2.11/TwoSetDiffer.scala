@@ -1,6 +1,4 @@
-package entry
-
-import java.io.{FileReader, InputStreamReader, BufferedReader, File}
+import java.io.{BufferedReader, File, FileReader}
 
 import scala.collection.mutable
 

@@ -1,9 +1,6 @@
-package entry
+import java.io.{BufferedReader, FileReader, InputStreamReader}
 
 import org.openfly._
-import java.io.{FileReader, InputStreamReader, BufferedReader}
-
-import scala.collection.mutable.Map
 
 /**
  * Created by mtao60 on 6/19/15.
